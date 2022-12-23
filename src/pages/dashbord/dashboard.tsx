@@ -1,7 +1,11 @@
 import react  from "@babel/types";
 import SideBar from "../../components/sidebar/sideBar"
+import Header from "../../components/header/header";
+
+import { Conteiner } from "./styles";
 
 export default () =>
-    <div>
+    <Conteiner>
         <SideBar/>
-    </div>
+        <Header/>
+    </Conteiner>
