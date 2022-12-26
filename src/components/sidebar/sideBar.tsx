@@ -1,6 +1,5 @@
 import { react } from "@babel/types";
 import Foto from "./foto.png"
-
 import {BiHomeAlt} from "react-icons/bi"
 import {BsBookmark} from "react-icons/bs"
 import {SlGraduation} from "react-icons/sl"
@@ -11,8 +10,9 @@ import {GoSignOut} from "react-icons/go"
 
 import { SideBar, Logo, Perfil, Nav } from "./style";
 
+
 export default () =>
-        <SideBar>
+        <SideBar className="sidebar">
             <Logo>Dartsiders CRUD</Logo>
             <Perfil className="perfil">
                 <img src={Foto} alt="Imagem de perfil usuario" />

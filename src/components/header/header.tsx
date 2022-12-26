@@ -7,7 +7,7 @@ import {BsCaretLeftSquare} from "react-icons/bs"
 import { Header , Util} from "./style";
 
 export default () => 
-    <Header>
+    <Header className="header">
         <button><BsCaretLeftSquare/></button>
         <Util>
             <form action="">

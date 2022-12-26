@@ -65,7 +65,7 @@ export const Form  = styled.form`
         color: #6C6C6C;
     }
 
-    input{
+    input , button{
         width: 100%;
         height: 44px;
         border-radius: 4px;
@@ -78,6 +78,7 @@ export const Form  = styled.form`
 
         
     }
+    
     .btn-form{
         color: #fff;
         background-color: #A700D0;
