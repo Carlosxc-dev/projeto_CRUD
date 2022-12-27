@@ -6,29 +6,20 @@ export const Conteiner = styled.div`
     border-radius: 10px;
     color: #fff;
     border: 1px solid #000000;
+    background: linear-gradient(110.42deg, #FE0098 18.27%, #7C42F8 91.84%);
+    margin-right: .5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
 
     .quant{
         font-size: 30px;
         font-weight: bold;
         color: #fff;
+        justify-self: flex-end;
+        align-self: flex-end;
     }
 
-    .students{
-        background-color: #7A86F5;
-    }
-
-    .payments{
-        background: linear-gradient(251.61deg, #E92121 14.42%, #2C39A7 97.85%, rgba(44, 57, 167, 0) 97.85%);
-    }
-    
-    .course{
-        background: #FE0098;
-    }
-
-    .user{
-        background: linear-gradient(110.42deg, #FE0098 18.27%, #7C42F8 91.84%)
-    }
-    
     h1{
         font-size: 14px;
         font-weight: 500;

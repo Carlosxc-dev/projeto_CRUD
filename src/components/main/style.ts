@@ -1,8 +1,10 @@
 import styled  from "styled-components";
 
-export const Main = styled.main`
+export const MainStyle = styled.main`
     padding: 30px;
     display: flex;
-    gap: 10px;
-    flex: 1 1 200px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: 100%;
+    height: 100%;
 `;

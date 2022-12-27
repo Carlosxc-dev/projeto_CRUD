@@ -6,11 +6,10 @@ import {SlGraduation} from "react-icons/sl"
 interface props{
     name: string;
     quant: number;
-    clas: string;
 }
 
-export default ({name, quant, clas}: props) =>
-    <Conteiner className={clas}>
+export default ({name, quant}: props) =>
+    <Conteiner>
         <SlGraduation/>
         <h1>{name}</h1>
         <div className="quant">{quant}</div>

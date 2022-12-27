@@ -14,12 +14,24 @@ export const Logo = styled.h1`
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 2rem;
+    .line{
+        display: inline;
+        margin-right: .6rem;
+        width: 0;
+        height: 40px;
+        padding: 4px;
+        background-color: #A700D0;
+    }
 `;
 
 export const Perfil = styled.section`
     width: 130px;
     height: 200px;
     margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     img{
         width: 130px;
@@ -51,27 +63,26 @@ export const Nav = styled.nav`
 
     }
 
-    
     li{
+        border-radius: 5px;
+        margin-bottom: .4rem;
+    }
+
+    li > .a{
         width: 195px;
         height: 40px;
         padding: 0.6rem 3.5rem;
-        /* background-color: #c6c6c6; */
         border-radius: 5px;
         display: flex;
-    }
-    
-
-    a{
         text-decoration: none;
         font-size: 14px;
         font-weight: 400;
         color: #000;
         margin-left: .6rem;
-    }
 
-    ul > .logout{
-        justify-self: flex-end;
+        p{
+            margin-left: .5rem;
+        }
     }
 
     li:hover{

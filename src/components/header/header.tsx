@@ -11,8 +11,10 @@ export default () =>
         <button><BsCaretLeftSquare/></button>
         <Util>
             <form action="">
-                <input type="text" />
-                <button><AiOutlineSearch/></button>
+                <input type="text" placeholder="Search"/>
+                <button>
+                    <AiOutlineSearch/>
+                </button>
             </form>
             <button><BsBell/></button>
         </Util>
